@@ -15,7 +15,6 @@ EXPOSE 8080
 
 # add in some nice Cloud9 default settings
 COPY user.settings /root/.c9/
-COPY .c9 /go/.c9
 
 # install cloud9 last to make updates smaller
 RUN git clone git://github.com/c9/core.git c9sdk
