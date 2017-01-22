@@ -1,37 +1,39 @@
 {
     "ace": {
-        "@animatedScroll": "true",
+        "@animatedScroll": true,
         "@antialiasedfonts": true,
         "@behavioursEnabled": true,
-        "@cursorStyle": "smooth slim",
-        "@displayIndentGuides": "true",
-        "@fadeFoldWidgets": "true",
+        "@cursorStyle": "ace",
+        "@displayIndentGuides": true,
+        "@fadeFoldWidgets": true,
         "@fontFamily": "Menlo, Ubuntu Mono, Consolas, source-code-pro, monospace",
         "@fontSize": 12,
-        "@highlightActiveLine": "true",
-        "@highlightGutterLine": "true",
-        "@highlightSelectedWord": "true",
-        "@keyboardmode": "default",
+        "@highlightActiveLine": true,
+        "@highlightGutterLine": true,
+        "@highlightSelectedWord": true,
+        "@keyboardmode": "vim",
         "@mergeUndoDeltas": "off",
-        "@overwrite": "false",
+        "@overwrite": false,
         "@printMarginColumn": "80",
         "@scrollPastEnd": "0.5",
         "@scrollSpeed": "2",
         "@selectionStyle": "line",
-        "@showFoldWidgets": "true",
+        "@showFoldWidgets": true,
         "@showGutter": true,
         "@showInvisibles": false,
-        "@showPrintMargin": "true",
-        "@theme": "ace/theme/cloud9_day",
+        "@showLineNumbers": true,
+        "@showPrintMargin": true,
+        "@theme": "ace/theme/cloud9_night_low_color",
         "@useWrapMode": true,
         "@wrapBehavioursEnabled": true,
-        "@wrapToView": "true",
+        "@wrapToView": true,
         "cursorStyle": {
             "json()": "smooth slim"
         },
         "custom-types": {
             "json()": {
-                "^searchresults": "c9search"
+                "^searchresults": "c9search",
+                "settings": "javascript"
             }
         },
         "statusbar": {
@@ -45,29 +47,29 @@
         "@autobuild": false
     },
     "collab": {
-        "@showbubbles": "true"
+        "@showbubbles": true
     },
     "debug": {
         "@autoshow": true,
         "@pause": 2
     },
     "findinfiles": {
-        "@clear": "true",
-        "@consolelaunch": "false",
-        "@fullpath": "false",
+        "@clear": true,
+        "@consolelaunch": false,
+        "@fullpath": false,
         "@project": "/",
-        "@scrolldown": "false"
+        "@scrolldown": false
     },
     "format": {
         "jsbeautify": {
             "@advanced": {},
             "@braces": "end-expand",
             "@indent_inner_html": false,
-            "@jslinthappy": "false",
-            "@keeparrayindentation": "false",
-            "@preserveempty": "true",
-            "@space_before_conditional": "true",
-            "@unescape_strings": "true"
+            "@jslinthappy": false,
+            "@keeparrayindentation": false,
+            "@preserveempty": true,
+            "@space_before_conditional": true,
+            "@unescape_strings": true
         }
     },
     "general": {
@@ -75,11 +77,12 @@
         "@automerge": true,
         "@autosave": true,
         "@confirmexit": true,
-        "@confirmmerge": "true",
+        "@confirmmerge": true,
+        "@downloadFilesAs": "auto",
         "@preview-navigate": false,
         "@preview-tree": false,
         "@revealfile": true,
-        "@skin": "flat-light",
+        "@skin": "dark",
         "@treestyle": "alternative"
     },
     "imgeditor": {
@@ -140,33 +143,34 @@
         ]
     },
     "language": {
-        "@continuousCompletion": "true",
-        "@enterCompletion": "true",
-        "@hints": "true",
+        "@continuousCompletion": true,
+        "@enterCompletion": true,
+        "@hints": true,
         "@instanceHighlight": true,
-        "@overrideMultiselectShortcuts": "true"
+        "@overrideMultiselectShortcuts": true
     },
     "metadata": {
-        "@enabled": "true",
+        "@enabled": true,
         "@undolimit": "500"
     },
     "mount": {
         "@grandfathered-shown": false
     },
     "openfiles": {
-        "@hidetree": "false",
+        "@hidetree": false,
         "@show": false
     },
     "output": {
-        "@backgroundColor": "#e0e5e7",
-        "@foregroundColor": "#333333",
-        "@keepOutput": "false",
-        "@nosavequestion": "false",
-        "@selectionColor": "#aebabf"
+        "@backgroundColor": "#003a58",
+        "@foregroundColor": "#FFFFFF",
+        "@keepOutput": false,
+        "@nosavequestion": false,
+        "@selectionColor": "#225477"
     },
     "preview": {
         "@default": "preview.browser",
-        "@running_app": "false"
+        "@onSave": false,
+        "@running_app": false
     },
     "projecttree": {
         "@hiddenFilePattern": "*.pyc, __pycache__, .*",
@@ -174,27 +178,27 @@
         "@showhidden": false
     },
     "runconfig": {
-        "@debug": "true",
-        "@saveallbeforerun": "true",
-        "@showruncfglist": "false"
+        "@debug": true,
+        "@saveallbeforerun": true,
+        "@showruncfglist": false
     },
     "tabs": {
-        "@asterisk": "false",
+        "@asterisk": false,
         "@autoclosepanes": false,
         "@show": true,
-        "@title": "false"
+        "@title": false
     },
     "terminal": {
-        "@antialiasedfonts": false,
-        "@backgroundColor": "#eaf0f7",
+        "@antialiasedfonts": true,
+        "@backgroundColor": "#153649",
         "@blinking": true,
         "@collab": true,
         "@defaultEnvEditor": true,
         "@fontfamily": "Ubuntu Mono, Menlo, Consolas, monospace",
         "@fontsize": "12",
-        "@foregroundColor": "#000000",
+        "@foregroundColor": "#FFFFFF",
         "@scrollback": 10000,
-        "@selectionColor": "#bed1e3"
+        "@selectionColor": "#515D77"
     },
     "test": {
         "@collapsegroups": false,
@@ -206,6 +210,9 @@
             "@testfiles": false,
             "@toolbar": true
         }
+    },
+    "tour": {
+        "@default-complete": false
     },
     "welcome": {
         "@first": true
