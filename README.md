@@ -2,6 +2,8 @@
 
 Includes go 1.8rc2 running on Debian Jessie with working code completion and debugging.
 
+**This repository contains some personal customizations based the great work done by [@msmiley](https://github.com/msmiley) in [msmiley/cloud9-go-beta](https://github.com/msmiley/cloud9-go-beta).**
+
 ## Run the container with defaults
 
 ```
