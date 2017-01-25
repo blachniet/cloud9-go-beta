@@ -19,6 +19,7 @@ EXPOSE 8082
 
 # add in some nice Cloud9 default settings
 COPY user.settings /root/.c9/
+COPY init.js /root/.c9/
 
 # install cloud9 last to make updates smaller
 RUN git clone git://github.com/c9/core.git c9sdk
