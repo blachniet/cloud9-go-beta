@@ -7,7 +7,7 @@
         "@displayIndentGuides": true,
         "@fadeFoldWidgets": true,
         "@fontFamily": "Menlo, Ubuntu Mono, Consolas, source-code-pro, monospace",
-        "@fontSize": 12,
+        "@fontSize": 14,
         "@highlightActiveLine": true,
         "@highlightGutterLine": true,
         "@highlightSelectedWord": true,
