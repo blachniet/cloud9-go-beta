@@ -16,13 +16,12 @@ By default, the IDE is served on 8080. 8081 and 8082 can be used to serve other 
 
 ## Options
 
-### PNAT the port, mount a workspace and mount ssh keys
+### PNAT the port and mount a workspace
 
 ```
 docker run -d \
     -p 8888:8080 \
     -v ~/my_go_workspace:/go \
-    -v ~/.ssh:/root/.ssh \
     blachniet/cloud9-go-beta
 ```
 
@@ -37,3 +36,17 @@ docker run -d \
 ```
 
 Note: the password will be easily visible to anyone in the docker group, so no valuable passwords!
+
+### Add SSH Keys
+
+If you have SSH keys that you would like to reuse across Cloud9 instances, you can add those keys to the container. Run the following command from the host:
+
+```
+docker cp ~/.ssh cloud9_container_name:/root/.ssh
+```
+
+Then, inside the Cloud9 terminal, modify the permissions on the private key.
+
+```
+chmod 600 ~/.ssh/id_rsa
+```
